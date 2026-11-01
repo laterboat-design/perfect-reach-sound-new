@@ -50,7 +50,7 @@ public class PerfectReachClient implements ClientModInitializer {
         }
 
         if (cooldown == 0) {
-            mc.getSoundManager().play(PositionedSoundInstance.master(
+            mc.getSoundManager().play(PositionedSoundInstance.ui(
                     SoundEvents.BLOCK_NOTE_BLOCK_PLING.value(), cfg.pitch, cfg.volume));
             cooldown = cfg.intervalTicks;
         }
