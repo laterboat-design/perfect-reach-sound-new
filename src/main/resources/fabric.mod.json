@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "perfectreachsound",
+  "version": "${version}",
+  "name": "Perfect Reach Sound",
+  "description": "Spielt ein rhythmisches Ding-Ding-Ding, wenn das anvisierte Ziel in perfekter Schlagreichweite ist.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.perfectreach.PerfectReachClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
